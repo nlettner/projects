@@ -1,0 +1,5 @@
+# Ignore .aux, .log, .pdf, and .syntex.gz files
+latex/**/*.aux
+latex/**/*.log
+latex/**/*.pdf
+latex/**/*.synctex.gz

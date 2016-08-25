@@ -1,0 +1,44 @@
+\documentclass[a4paper]{article}
+
+\usepackage{amsmath, amssymb, verbatim}
+
+\oddsidemargin 0mm
+\evensidemargin 0mm
+\textwidth 160mm
+\headheight 0mm
+\topmargin -3mm
+\textheight 300mm
+
+\newcommand{\fullrule}[1]{\noindent\rule{\textwidth}{#1}}
+\def\stdfullrule{\fullrule{0.4pt}}
+
+\input{"resume_work_experience"}
+
+\begin{document}
+\thispagestyle{empty}
+
+\begin{center}
+\input{"resume_header.tex"}
+
+\stdfullrule
+\end{center}
+
+\input{"resume_education.tex"}
+
+\
+
+\input{"resume_coursework.tex"}
+
+\stdfullrule
+
+\
+
+\input{"resume_skills.tex"}
+
+\stdfullrule
+
+\
+
+\defaultWorkExperience
+
+\end{document}
